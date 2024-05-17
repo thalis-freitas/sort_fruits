@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #333131;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+  padding: 12px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+main, li, p{
+  background: #fff;
+  max-width: 50%;
+  color: #000;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+main, p{
+  font-family: 'Patua One', cursive;
+  padding: 10px;
+  text-align: center;
+}
+
+p{
+  margin-top: 10px;
+  color: #aa0000;
+}
+
+li{
+  list-style-position: inside;
+  padding: 3px 3px 3px 15px;
+}
+
+button{
+  color: #fff;
+  background: #0ea269;
+  border: 1px solid #0ea269;
+  margin-top: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+}
+
+button:hover{
+  background: #076d44;
+  border-color: #076d44;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+a, a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px){
+  input[type=file]{
+    background-color: #ccc;
+    padding: 10px;
+  }
+}
