@@ -28,7 +28,6 @@
             </span>
         </a>
     </footer>
-    <script src="./js/scripts.js"></script>
 
     <?php
     include 'sort_fruits.php';
