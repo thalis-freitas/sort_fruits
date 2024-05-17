@@ -1,0 +1,8 @@
+services:
+  app:
+    container_name: php
+    build: .
+    volumes:
+      - ./php/src:/var/www/html/
+    ports:
+      - 8000:80
