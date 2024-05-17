@@ -54,6 +54,10 @@ button:hover{
   border-color: #076d44;
 }
 
+section{
+  position: relative;
+  bottom: 50px;
+}
 
 footer{
   position: fixed;

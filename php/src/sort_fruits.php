@@ -11,9 +11,11 @@ function sortFruits(&$fruits) {
 
 function showFruits($fruits) {
     echo "<h1>Frutas Ordenadas:</h1>";
+    echo "<section>";
     foreach ($fruits as $fruit) {
         echo "<li>$fruit</li>";
     }
+    echo "</section>";
 }
 
 function handleFileUpload() {
